@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Login.aspx" title="Home"  description="">
+        <siteMapNode url="~/order.aspx" title="耳机"  description="" />
+        <siteMapNode url="~/order_user.aspx" title="订单管理"  description="" />
+        <siteMapNode url="~/shoppingchrt.aspx" title="购物车"  description="" />
+        
+        <siteMapNode url="~/Login_to.aspx" title="耳机"  description="" />
+    </siteMapNode>
+   
+</siteMap>
+
+
+    
+        

@@ -1,0 +1,29 @@
+﻿.log
+{
+    width:100%;
+    height:100px;
+    background:#D74422;
+    }
+.log_text
+{
+    margin-top:50px;
+    float:right;
+    width:25%;
+    height:50%;
+    
+    }
+.menu
+{
+    height:600px;
+    width:15%;
+    background:#333;
+    float:left;
+    }
+    
+.show_text
+{
+    float:left;
+    width:80%;
+    height:600px;
+    margin-left: 40px;
+}

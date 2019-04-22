@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="Doublekai_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="log">
+        <div class="log_text" 
+            >
+            <font style="font-size: 12px; font-weight: 300; color: #FFFFFF">您好，亲爱的<asp:Label 
+                ID="lb_log" runat="server" Text="Label"></asp:Label>
+            用户&nbsp;&nbsp;
+            <asp:Button ID="Button1" runat="server" BorderStyle="None" 
+                onclick="Button1_Click" style="font-weight: 700" Text="注销" />
+            </font>
+        </div>
+        
+    
+    </div>
+    <div class="menu" style="text-align: center">
+        <asp:Menu ID="Menu1"  runat="server" Width="100%" Height="100%" 
+            DynamicTopSeparatorImageUrl="`"  Font-Italic="False" 
+            Font-Size="18pt" Font-Strikeout="False" ForeColor="White" 
+            Font-Overline="False">
+            <DynamicMenuItemStyle Font-Size="12pt" />
+            <DynamicMenuStyle BackColor="#333333" VerticalPadding="85px" />
+            <DynamicItemTemplate>
+                <%# Eval("Text") %>
+            </DynamicItemTemplate>
+            <Items>
+                <asp:MenuItem Text="订单管理" Value="订单管理" NavigateUrl="order.aspx">
+                    <asp:MenuItem Text="全部订单" Value="全部订单" NavigateUrl="order.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="待发货" Value="待发货" NavigateUrl="No_order.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="已发货" Value="已发货" NavigateUrl="Yes_order.aspx"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="用户管理" Value="用户管理" NavigateUrl="ur.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="商品编辑" Value="商品编辑" NavigateUrl="comm.aspx">
+                    <asp:MenuItem Text="添加商品" Value="添加商品" NavigateUrl="add_comm.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="搜索商品" Value="搜索商品" NavigateUrl="scele_comm.aspx"></asp:MenuItem>
+                </asp:MenuItem>
+            </Items>
+           
+            <StaticMenuItemStyle Font-Size="18pt" ForeColor="White" 
+                HorizontalPadding="10px" VerticalPadding="80px" />
+           
+            <StaticMenuStyle Height="20px" />
+            <StaticItemTemplate>
+                <%# Eval("Text") %>
+            </StaticItemTemplate>
+           
+        </asp:Menu>
+    </div>
+    
+         <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+    </form>
+</body>
+</html>

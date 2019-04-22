@@ -1,0 +1,252 @@
+.*{
+	margin: 0 auto;
+	
+}
+.head{
+	height: 60px;
+	width: 100%;
+}
+.wide{
+	height: 100px;
+	width: 100%;
+	
+	display: flex;
+}
+.logo_fi
+{
+    margin-left:100px;
+    
+    }
+.logo_fi img{
+	padding-top: 15px;
+	
+}
+.logo_input{
+	margin-top: 22px;
+	display: flex;
+	height: 100%;
+	margin-left: 100px;
+	
+	width: 660px;
+}
+.logo_input input{
+	
+	height: 34px;
+	width: 596px;
+}
+.logo_input button{
+	border: 0;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-image:url(../img/button.jpg);
+	background-position: center;
+	height:40px ;
+	width: 40px;
+
+}
+.nav_outer{
+	height: 50px;
+	
+	width: 100%;
+	display: flex;
+}
+.nav_outer a{
+	text-decoration:none;
+	color: #333;
+}
+.nav_outer li{
+	padding: 0 30px;
+	font-size: 16px;
+	display: inline-block;
+	font-weight: bold;
+}
+.nav_outer a:hover{
+	color:#4CCC76;
+	}
+ .style1
+    {
+        text-align: center;
+    }
+    .wrap
+    {
+        margin-top:30px;
+       
+        }
+.right_bar
+{
+    margin-top:25px;
+    margin-left:100px;
+    
+    }
+    .right_bar a:hover{
+	color:#4CCC76;
+	}
+		
+.container
+	{
+	    width:100%;
+	    height:190px;
+	    margin-top:50px;
+	    padding:0;
+	    }
+	
+.poclist
+{
+    height:150px;
+	float:left;
+	width:33.33%;
+	
+}
+.inmt_inpro_wide
+{
+    display:block;
+    width:100%;
+    height:540px;
+    margin-top:50px;
+    }
+ .inmtl_fl 
+ {
+     margin-left:4%;
+     height:100%;
+     width:20%;
+     float:left; 
+     }
+    
+.top_title
+{
+    height:100%;
+    width:75%;
+     float:left;
+    }    
+ .box
+ {
+     height:100%;
+     width:33.3%;
+     float:left;
+    
+     }
+  .box_new
+ {
+     height:400px;
+     width:23.5%;
+     float:left;
+    
+     }
+  .title_new
+  {
+      margin-bottom:50px;
+     margin-left:3%;
+    height:820px;
+      
+      }
+     .title_new img:hover
+  {
+      height:255px;
+      
+      }
+  .title_to
+  {
+     
+      margin-right:4%;
+      margin-left:4%;
+      }
+.title1
+{
+    margin-left:2%;
+    height:70px;
+    
+    }
+   .title2
+   {
+       height:85%;
+       }
+.box2:hover
+{
+	text-decoration: underline;
+}
+.box img:hover
+{
+    height:255px;
+    
+    }
+.inmtl_fl img:hover
+{
+    height:535px;
+    }
+.inmb_wide
+{
+    width:100%;
+    height:340px;
+    margin-top:60px;
+    margin:o auto;
+    }
+ .Log3_4
+ {
+     margin-left:4%;
+     width:45%;
+     float:left;
+     }
+  .Log3_4 img:hover
+ {
+     height:325px;
+    
+     }
+.order
+{
+    margin-left:2%;
+    margin-bottom:30px;
+    }
+.show_comm
+{
+   
+    background:#fff;
+    margin:0 auto;
+    width:96%;
+    height:600px;
+    }
+.show_img
+{
+    float:left;
+    width:40%;
+    height:100%;
+    }
+ .show_commod
+{
+    margin-top:40px;
+    
+    float:left;
+    width:60%;
+    height:30%;
+    }
+.clik
+{
+    margin-top:27%;
+
+    float:left;
+    width:90%;
+    height:10%;
+    }
+    .btn
+    {
+        float:left;
+        width:40%;
+        }
+   .miaoshu
+   {
+       float:left;
+       width:30%;
+       height:100%;
+       
+       }
+       .comm
+       {
+           float:left;
+           height:100%;
+           width:30%;
+           
+           }
+  .guige
+  {
+      margin-top:10%;
+      height:10%;
+      }
